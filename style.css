@@ -1,0 +1,43 @@
+body {
+    flex-wrap: wrap;
+}
+
+section {
+    padding: 5px;
+    margin: 20%;
+    text-align: center;
+    background-color: #A7E5DB;
+}
+
+button {
+    cursor: pointer;
+    padding: 5px;
+    margin: 15px;
+}
+
+section,
+div {
+    padding: 20px;
+}
+
+
+table {
+    margin: auto;
+    font-family: "Trebuchet MS", "Verdana", "Georgia", serif;
+    font-size: 12px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+td {
+    border: 1px solid black;
+    padding: 0;
+}
+
+@media screen and (max-width: 600px) {
+    table {
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
